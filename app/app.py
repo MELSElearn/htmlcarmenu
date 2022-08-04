@@ -35,6 +35,6 @@ def hello_world():
             else:
                 mycar = 'static/none.png' 
                 
-            return render_template('index.html', href2=str(mycar), href3='This is the recommendation! (age:'+str(myage)+' ,salary range:'+str(mysalary)+'):'+predictions_to_str)
+            return render_template('index.html', href2=str(mycar), href3='This is the recommendation!'+predictions_to_str)
         
 
